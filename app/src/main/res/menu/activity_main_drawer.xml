@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hot_food"
+            android:icon="@drawable/ic_black_whatshot"
+            android:title="@string/hot_food" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_shipper"
+            android:icon="@drawable/ic_black_local_shipping"
+            android:title="@string/shipper" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_grey_signout"
+            android:title="@string/sign_out" />
+    </group>
+</menu>
